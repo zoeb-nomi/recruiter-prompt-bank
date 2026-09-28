@@ -1,0 +1,15 @@
+{
+  "n_records": 239,
+  "kind_totals": {
+    "lookup_prompt": 57,
+    "ranking_prompt": 58,
+    "screening_rubric": 43,
+    "sourcing_query": 81
+  },
+  "embedding_backend": "tfidf",
+  "clustering_backend": "hdbscan",
+  "n_clusters": 3,
+  "n_noise": 185,
+  "empty_slot_extractors": [],
+  "random_seed": 42
+}

@@ -1,0 +1,325 @@
+{
+  "Ashby": {
+    "fields_extracted": [
+      "user-defined criteria set in job settings"
+    ],
+    "weights_or_ranking": "unstated (binary Meet / Do Not Meet per criterion, not a weighted score)",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.ashbyhq.com/product-updates/ai-assisted-application-review"
+    ],
+    "record_ids": [
+      "pb-0145"
+    ]
+  },
+  "Bullhorn": {
+    "fields_extracted": [
+      "job-specific knowledge and skills",
+      "leadership and teamwork",
+      "problem-solving ability",
+      "key skills",
+      "experience",
+      "resume information compared against job description"
+    ],
+    "weights_or_ranking": "Amplify Screener produces a single 0-100 score across the three listed dimensions; weighting between dimensions unstated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://kb.bullhorn.com/amplify/Content/AmplifySkills/Topics/UnderstandingCandidatesScreeningScore.htm",
+      "https://www.bullhorn.com/blog/ai-in-action-streamlining-candidate-screening/"
+    ],
+    "record_ids": [
+      "pb-0137",
+      "pb-0146"
+    ]
+  },
+  "Dover": {
+    "fields_extracted": [
+      "skill alignment",
+      "career progression patterns",
+      "project complexity levels",
+      "communication style (from public posts)",
+      "cultural fit indicators",
+      "soft skills",
+      "success metrics from existing high performers"
+    ],
+    "weights_or_ranking": "unstated; system adapts to recruiter's past good-fit marks to find similar profiles (learned preference, not a stated formula)",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.dover.com/blog/how-ai-candidate-sourcing-is-changing-recruitment"
+    ],
+    "record_ids": [
+      "pb-0147",
+      "pb-0148"
+    ]
+  },
+  "Eightfold Talent Intelligence": {
+    "fields_extracted": [
+      "skill alignment (cosine similarity)",
+      "recent skill-based measurement",
+      "current title similarity",
+      "predicted next title (via RNN)",
+      "company similarity",
+      "hireability"
+    ],
+    "weights_or_ranking": "semantic embeddings of resume and JD synthesized into a match score scaled 0-5; per-factor weighting unstated",
+    "uses_llm": "unstated (states semantic embeddings / vector space matching, not explicitly LLM-based)",
+    "source_urls": [
+      "https://eightfold.ai/engineering-blog/ai-powered-talent-matching-the-tech-behind-smarter-and-fairer-hiring/"
+    ],
+    "record_ids": [
+      "pb-0116",
+      "pb-0117"
+    ]
+  },
+  "Findem": {
+    "fields_extracted": [
+      "match quality",
+      "applicant interest/connection to company"
+    ],
+    "weights_or_ranking": "prioritizes best-match and highest-interest prospects; searches channels warmest to coldest (internal data before external sources); no numeric weights stated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.findem.ai/blog/copilot-automated-candidate-sourcing"
+    ],
+    "record_ids": [
+      "pb-0149",
+      "pb-0150"
+    ]
+  },
+  "Gem": {
+    "fields_extracted": [
+      "must-have qualifications",
+      "nice-to-have qualifications",
+      "relevant keywords matching criteria (highlighted in work history)",
+      "hiring criteria / natural-language prompts"
+    ],
+    "weights_or_ranking": "match score percentages (e.g. 100% Match, 65% Match); must-haves marked priority with star icons; ranking rationale is summarized but underlying weighting formula unstated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://help.gem.com/external/getting-started-with-ai-sourcing",
+      "https://www.gem.com/blog/how-gem-embeds-ai-across-every-stage-of-recruiting"
+    ],
+    "record_ids": [
+      "pb-0124",
+      "pb-0151"
+    ]
+  },
+  "Greenhouse Real Talent": {
+    "fields_extracted": [
+      "objective digital signals for fraud/identity-misrepresentation detection",
+      "spam blocklist (IP/email/domain)",
+      "recruiter-defined and weighted calibrations for talent matching",
+      "biometric/government ID verification (via CLEAR, third party)"
+    ],
+    "weights_or_ranking": "calibrations are recruiter-defined and weighted; exact weighting formula unstated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.greenhouse.com/product-features/greenhouse-real-talent"
+    ],
+    "record_ids": [
+      "pb-0152"
+    ]
+  },
+  "Greenhouse Talent Matching": {
+    "fields_extracted": [
+      "skills (including related terms found on resumes)",
+      "experience",
+      "job titles",
+      "industry"
+    ],
+    "weights_or_ranking": "AI-powered ranking calibrated by recruiter-defined weights; Greenhouse recommends calibrating on 4-6 key skills for optimal matching; blocks/warns on biased or protected-attribute proxies during calibration",
+    "uses_llm": "unstated (described as AI-powered ranking)",
+    "source_urls": [
+      "https://support.greenhouse.io/hc/en-us/articles/41131886674075-Talent-Matching-FAQ",
+      "https://support.greenhouse.io/hc/en-us/articles/41396009937307-Talent-Matching"
+    ],
+    "record_ids": [
+      "pb-0138",
+      "pb-0139",
+      "pb-0140"
+    ]
+  },
+  "Lever Talent Fit": {
+    "fields_extracted": [
+      "candidate skills and experience (stated as beyond basic keyword matching)"
+    ],
+    "weights_or_ranking": "ranked candidates with transparent scoring and stated explanations of why matches stand out, plus gap identification for interview prep; exact scoring formula unstated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.lever.co/solutions/ai-powered-screening"
+    ],
+    "record_ids": [
+      "pb-0153"
+    ]
+  },
+  "Manatal": {
+    "fields_extracted": [
+      "skills",
+      "experience",
+      "education",
+      "job description length",
+      "salary field filled",
+      "location field filled"
+    ],
+    "weights_or_ranking": "distinguishes required criteria (non-negotiable, stronger influence) from preferred criteria (nice-to-have, lighter weighting), up to 10 total criteria per job; a separate 'Job Completion Score' (bars, grade B/A = 4-5 bars) gates whether AI recommendations unlock, based on JD length and salary/location fields being filled",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://support.manatal.com/docs/ai-candidate-recommendations"
+    ],
+    "record_ids": [
+      "pb-0141",
+      "pb-0142"
+    ]
+  },
+  "Paradox Olivia": {
+    "fields_extracted": [
+      "job requirements (exact fields not publicly disclosed)"
+    ],
+    "weights_or_ranking": "unstated / not publicly disclosed; explicitly excludes gender, race, or ethnicity from evaluation",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.paradox.ai/products/screening"
+    ],
+    "record_ids": [
+      "pb-0154"
+    ]
+  },
+  "Recruitee": {
+    "fields_extracted": [
+      "up to 6 manually defined criteria per job"
+    ],
+    "weights_or_ranking": "recommends only candidates meeting at least 75% of job requirements; ignores sensitive information (names, age, contact details, social media links, gender, nationality); per-criterion weighting unstated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://support.recruitee.com/en/articles/14037464-get-started-with-the-matching-assistant"
+    ],
+    "record_ids": [
+      "pb-0143"
+    ]
+  },
+  "SeekOut": {
+    "fields_extracted": [
+      "required skills",
+      "supporting experience",
+      "performance signals"
+    ],
+    "weights_or_ranking": "recommends a 1-5 point scoring scale with defined thresholds (high = strong direct experience, mid = partial alignment, low = limited alignment); rubrics should separate must-haves (non-negotiable), nice-to-haves (preferred), and bonus points (extra top-tier indicators)",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://www.seekout.com/blog/candidate-evaluation-process/",
+      "https://www.seekout.com/blog/interview-scorecard-vs-hiring-rubric/"
+    ],
+    "record_ids": [
+      "pb-0155",
+      "pb-0156",
+      "pb-0157"
+    ]
+  },
+  "Teamtailor Co-pilot": {
+    "fields_extracted": [
+      "resume text",
+      "cover letter",
+      "application question answers",
+      "comments",
+      "candidate address",
+      "tags",
+      "custom fields (excluding private fields)"
+    ],
+    "weights_or_ranking": "three-level system per criterion: meets criteria / doesn't meet criteria / unknown; no numeric weighting stated",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://support.teamtailor.com/en/articles/10209597-co-pilot-candidate-screening"
+    ],
+    "record_ids": [
+      "pb-0144"
+    ]
+  },
+  "Workable": {
+    "fields_extracted": [
+      "must-have skills",
+      "experience levels",
+      "location requirements",
+      "skills (boolean operators, e.g. php OR java)",
+      "years of experience",
+      "salary ranges",
+      "application source",
+      "custom question responses",
+      "status (new/unread)"
+    ],
+    "weights_or_ranking": "knock-out questions on must-haves auto-disqualify early; remaining filters are boolean/categorical, not a weighted score",
+    "uses_llm": "unstated",
+    "source_urls": [
+      "https://help.workable.com/hc/en-us/articles/23365968258711-Best-practices-Candidate-Screening"
+    ],
+    "record_ids": [
+      "pb-0125",
+      "pb-0126"
+    ]
+  },
+  "Workable Agent": {
+    "fields_extracted": [
+      "work experience",
+      "educational qualifications",
+      "tools and technology proficiency",
+      "domain knowledge",
+      "methodologies and frameworks",
+      "physical requirements",
+      "certifications and licenses",
+      "language proficiency",
+      "legal and regulatory requirements",
+      "location and mobility",
+      "availability",
+      "compensation and budget constraints",
+      "stakeholder and customer interfaces",
+      "equipment and infrastructure needs"
+    ],
+    "weights_or_ranking": "scoring considers completeness of candidate profile (CV + application answers), data validity/consistency, criterion complexity, and alignment between candidate information and requirements; exact weighting formula unstated",
+    "uses_llm": "unstated (called an 'Agent')",
+    "source_urls": [
+      "https://help.workable.com/hc/en-us/articles/38381544828695-Using-the-Workable-Agent"
+    ],
+    "record_ids": [
+      "pb-0127",
+      "pb-0128"
+    ]
+  },
+  "Zoho Recruit Zia": {
+    "fields_extracted": [
+      "skills and qualifications",
+      "proficiency level (extracted from resume language)",
+      "experience duration",
+      "recency of skill use",
+      "skill rarity (common vs. rare in applicant pool)",
+      "co-occurring skills",
+      "industry type",
+      "job title",
+      "years of overall experience"
+    ],
+    "weights_or_ranking": "match scores with varied skill importance; primary skills designated in the Required Skills field are prioritized; exact formula unstated",
+    "uses_llm": "unstated (states NLP)",
+    "source_urls": [
+      "https://help.zoho.com/portal/en/kb/recruit/zia/candidate-matches/articles/candidate-matches",
+      "https://help.zoho.com/portal/en/kb/recruit/zia/overview/articles/zia-matching-overview"
+    ],
+    "record_ids": [
+      "pb-0129",
+      "pb-0130"
+    ]
+  },
+  "hireEZ": {
+    "fields_extracted": [
+      "job fit analysis against job description (from self-reported resume and application data)",
+      "baseline criteria from an AI-generated 'Ideal Persona'"
+    ],
+    "weights_or_ranking": "categorical classifications only: Best Match, Good Match, Partial Match, Not a Match; no numeric score stated",
+    "uses_llm": "unstated (states natural language processing)",
+    "source_urls": [
+      "https://hireez.com/applicant-review/"
+    ],
+    "record_ids": [
+      "pb-0131",
+      "pb-0132",
+      "pb-0133"
+    ]
+  }
+}

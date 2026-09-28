@@ -1,0 +1,100 @@
+# recruiter-prompt-bank — sources
+
+One line per distinct `source_url` in the final `prompts.jsonl`, with source type and the number of surviving records from that URL.
+
+- https://aipersy.com/blog/chatgpt-prompts-for-hr — prompt_library — 1 record
+- https://aiprixa.com/best-chatgpt-prompts-for-recruiters/ — article — 1 record
+- https://atzcrm.com/blog/best-ai-chatgpt-prompts-for-recruiters/ — article — 4 records
+- https://automindz-solutions.com/blog/ai-powered-research-tools-recruiters — article — 1 record
+- https://beam.ai/agentic-insights/15-chatgpt-prompts-for-recruiters-that-actually-speed-up-hiring — article — 3 records
+- https://blog.redhub.ai/resume-red-flags — article — 3 records
+- https://business.linkedin.com/talent-solutions/ai-assisted-search-and-projects — vendor_docs — 3 records
+- https://careery.pro/blog/recruiting-careers/chatgpt-prompts-for-recruiters — article — 3 records
+- https://chamberstalent.com/blog/the-recruiters-guide-to-prompt-engineering-sourcing-screening-and-engaging-candidates-with-chatgpt-4o/ — vendor_blog — 2 records
+- https://cutshort.io/blog/hiring/generative-ai-prompts-that-supercharge-recruiter-sourcing — article — 3 records
+- https://docs.juicebox.ai/filters — vendor_docs — 5 records
+- https://eightfold.ai/engineering-blog/ai-powered-talent-matching-the-tech-behind-smarter-and-fairer-hiring/ — vendor_docs — 2 records
+- https://eightfold.ai/learn/finding-the-ideal-candidate/ — vendor_docs — 6 records
+- https://feeds.obra.co/blog/ai-tools-natural-language-search-recruiting — article — 1 record
+- https://godofprompt.ai/blog/ai-prompts-smarter-candidate-screening/ — article — 12 records
+- https://help.gem.com/external/getting-started-with-ai-sourcing — vendor_docs — 3 records
+- https://help.workable.com/hc/en-us/articles/23365968258711-Best-practices-Candidate-Screening — vendor_docs — 2 records
+- https://help.workable.com/hc/en-us/articles/38381544828695-Using-the-Workable-Agent — vendor_docs — 2 records
+- https://help.zoho.com/portal/en/kb/recruit/zia/candidate-matches/articles/candidate-matches — vendor_docs — 1 record
+- https://help.zoho.com/portal/en/kb/recruit/zia/overview/articles/zia-matching-overview — vendor_docs — 1 record
+- https://hireez.com/applicant-review/ — vendor_docs — 3 records
+- https://hirelytica.com/blog/ai-cv-red-flags-recruiter-detection-2026 — article — 6 records
+- https://juicebox.ai/blog/boolean-search-cheat-sheet — vendor_blog — 7 records
+- https://juicebox.ai/blog/chatgpt-for-recruiting — article — 1 record
+- https://juicebox.ai/blog/rubrics-for-interviews — article — 3 records
+- https://kb.bullhorn.com/amplify/Content/AmplifySkills/Topics/UnderstandingCandidatesScreeningScore.htm — vendor_docs — 1 record
+- https://mindhuntai.com/blog/claude-ai-recruiting — vendor_blog — 2 records
+- https://nextmantra.ai/blog/chatgpt-prompts-for-recruiters — article — 2 records
+- https://recruitcrm.io/blogs/chatgpt-prompts-for-recruiters/ — article — 2 records
+- https://recruitcrm.io/free-ai-recruiting-prompts/ — prompt_library — 5 records
+- https://recruiterflow.com/blog/best-chatgpt-prompts-for-recruiters/ — article — 4 records
+- https://resources.workable.com/tutorial/screen-resumes-with-chatgpt — vendor_docs — 3 records
+- https://resources.workable.com/tutorial/source-google-boolean — vendor_docs — 11 records
+- https://support.greenhouse.io/hc/en-us/articles/41131886674075-Talent-Matching-FAQ — vendor_docs — 1 record
+- https://support.greenhouse.io/hc/en-us/articles/41396009937307-Talent-Matching — vendor_docs — 2 records
+- https://support.manatal.com/docs/ai-candidate-recommendations — vendor_docs — 2 records
+- https://support.recruitee.com/en/articles/14037464-get-started-with-the-matching-assistant — vendor_docs — 1 record
+- https://support.seekout.com/en/articles/11877771-conversational-search-with-seekout-assist — vendor_docs — 3 records
+- https://support.teamtailor.com/en/articles/10209597-co-pilot-candidate-screening — vendor_docs — 1 record
+- https://sureprompts.com/blog/ai-prompts-for-recruiters — article — 3 records
+- https://theundercoverrecruiter.com/recruiters-guide-chatgpt-4o/ — article — 2 records
+- https://www.aihr.com/blog/chatgpt-for-recruiting/ — article — 4 records
+- https://www.ajobthing.com/resources/recruiter-advice/10-chatgpt-prompts-for-recruiters — article — 3 records
+- https://www.ashbyhq.com/product-updates/ai-assisted-application-review — vendor_docs — 1 record
+- https://www.bullhorn.com/blog/ai-in-action-streamlining-candidate-screening/ — vendor_blog — 1 record
+- https://www.cloudapper.ai/talent-acquisition/ai-assisted-resume-fraud-what-recruiters-must-know/ — vendor_blog — 3 records
+- https://www.cloudapper.ai/talent-acquisition/how-to-detect-fake-resume-using-ai/ — vendor_blog — 1 record
+- https://www.coursera.org/articles/chatgpt-for-recruiters — vendor_docs — 3 records
+- https://www.curately.ai/blog/chatgpt-prompts-for-recruiters — article — 10 records
+- https://www.dover.com/blog/candidate-sourcing-techniques-guide — vendor_blog — 4 records
+- https://www.dover.com/blog/how-ai-candidate-sourcing-is-changing-recruitment — vendor_blog — 3 records
+- https://www.findem.ai/blog/copilot-automated-candidate-sourcing — vendor_blog — 2 records
+- https://www.findem.ai/blog/how-and-why-to-personalize-your-candidate-outreach — vendor_blog — 2 records
+- https://www.fountain.com/posts/ai-recruiting — article — 1 record
+- https://www.gem.com/blog/ai-prompting-best-practices-for-finding-top-talent — vendor_blog — 3 records
+- https://www.gem.com/blog/how-gem-embeds-ai-across-every-stage-of-recruiting — vendor_blog — 1 record
+- https://www.gem.com/blog/resume-fraud — vendor_blog — 4 records
+- https://www.glozo.com/blog/ai-prompts-for-recruiters — article — 7 records
+- https://www.glozo.com/blog/claude-for-recruiters — vendor_blog — 4 records
+- https://www.glozo.com/blog/perplexity-for-recruiters — vendor_blog — 1 record
+- https://www.greenhouse.com/blog/detecting-candidate-fraud — vendor_blog — 8 records
+- https://www.greenhouse.com/product-features/greenhouse-real-talent — vendor_docs — 1 record
+- https://www.herohunt.ai/blog/9-chatgpt-prompts-for-recruiters/ — article — 1 record
+- https://www.herohunt.ai/blog/how-to-use-llms-in-recruitment/ — vendor_blog — 2 records
+- https://www.herohunt.ai/blog/linkedin-recruiter-ai-features-2026/ — article — 1 record
+- https://www.herohunt.ai/blog/recruiting-with-claude-ai-the-complete-2026-guide — article — 4 records
+- https://www.herohunt.ai/blog/recruiting-with-claude-ai-the-complete-2026-guide/ — vendor_blog — 7 records
+- https://www.herohunt.ai/blog/top-10-claude-skills-for-recruiting-2026 — article — 3 records
+- https://www.layer3labs.io/guides/chatgpt-prompts-for-recruiters — article — 6 records
+- https://www.lever.co/solutions/ai-powered-screening — vendor_docs — 1 record
+- https://www.lilachbullock.com/chatgpt-prompts-for-recruiters/ — article — 1 record
+- https://www.manatal.com/blog/chatgpt-recruiting — article — 4 records
+- https://www.paradox.ai/products/screening — vendor_docs — 1 record
+- https://www.pin.com/blog/chatgpt-for-recruiting/ — article — 7 records
+- https://www.pin.com/blog/linkedin-recruiter-new-features/ — article — 1 record
+- https://www.seekout.com/blog/ai-conversational-search-recruiting/ — vendor_blog — 3 records
+- https://www.seekout.com/blog/candidate-evaluation-process/ — vendor_blog — 2 records
+- https://www.seekout.com/blog/interview-scorecard-vs-hiring-rubric/ — article — 2 records
+- https://www.yena.ai/blog/natural-language-candidate-search-2026 — article — 2 records
+
+## No public examples
+
+Targeted vendors/sources (collection targets) where collectors found no usable public prompt or criteria examples, or where the only collected material turned out to be out of scope for this bank:
+
+- **Fetcher** (fetcher.ai) — help docs mention natural-language and Boolean search support but no specific example queries are publicly documented.
+- **Hiretual** (legacy product docs) — no publicly accessible legacy guides or documentation found.
+- **HiredScore / Workday** — no detailed public scoring criteria disclosed; marketing material only references "candidate grading" and "clear reasoning" without specifics.
+- **Apollo.io** — has public AI-research prompt examples, but all of them are B2B sales-prospecting prompts (decision-maker research, tech-stack detection, intro-email drafting), not hiring-side candidate search or screening; excluded from this bank as out of scope, so Apollo has zero surviving records despite being a collection target.
+- **LinkedIn Talent Blog** ("gai-prompts-for-recruiters") and **LinkedIn Recruiter AI-Assisted Search best-practices page** (linkedin.com/learning) — both blocked by robots.txt; LinkedIn Recruiter is still represented via `business.linkedin.com/talent-solutions/ai-assisted-search-and-projects`, a public vendor page with equivalent example queries.
+- **Lever "Talent Fit AI Brief" help page** — fetch failed (loading error); Lever is still represented via its public AI-powered-screening solutions page.
+- **Greenhouse "AI Screened" integration docs** — describes scoring categories at a high level but shows no example prompts or criteria text.
+- **Rippling** — does not use AI for initial candidate screening; only summarizes interviewer feedback, so it produces no screening_rubric-shaped material.
+- **Reddit communities** (r/recruiting, r/humanresources, r/recruitinghell) — searches did not surface any threads where a recruiter shared an actual prompt or query verbatim.
+- **GitHub prompt-collection repos** (Ninjahire/awesome-recruiter-tools, leandrojacome/recruiter-ai-prompts, PSewmuthu/recruit-prompts, yokoffing/ChatGPT-Prompts) — linked to external libraries or non-recruiting content; no individually extractable in-scope records.
+- **Instahyre** (resume-to-JD fitment evaluator prompt page) — methodology described in prose but no discrete extractable prompt text.
+- **Gem AI features overview** (help.gem.com/external/gem-ai-features-overview) — high-level feature description only, no research prompt examples.

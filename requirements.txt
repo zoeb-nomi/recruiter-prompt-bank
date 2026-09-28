@@ -1,0 +1,12 @@
+# Core — required for validate.py and the TF-IDF/agglomerative fallback
+# path in mine.py. Pinned to what's installed in the build environment.
+scikit-learn==1.8.0
+numpy==2.4.4
+
+# Optional — mine.py tries these for local sentence embeddings + density
+# clustering when run with --no-offline, and falls back to TF-IDF +
+# agglomerative clustering automatically if either is missing, the model
+# can't be downloaded, or --offline (the default) is set.
+# Not required for validate.py or for mine.py to run.
+sentence-transformers==6.1.0
+hdbscan==0.8.44
