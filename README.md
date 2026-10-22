@@ -153,9 +153,9 @@ Limitations. Slot extraction is regex/keyword based and has known false positive
 
 ## How to cite
 
-> recruiter-prompt-bank (2026). A public dataset of hiring-side AI prompts,
+> Nomi, Z. (2026). recruiter-prompt-bank: a public dataset of hiring-side AI prompts,
 > search queries, and screening criteria, collected from public sources.
-> `<repo URL>`
+> https://github.com/zoeb-nomi/recruiter-prompt-bank
 
 Cite individual records by their `id` (e.g. `pb-0001`) alongside the
 dataset citation.
